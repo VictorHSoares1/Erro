@@ -1,0 +1,116 @@
+3 - Sobre programação, qual o valor de ‘a’? marque a alternativa correta:
+a = 10
+i = 0
+while (i < 10)
+while (i < 10)
+a = a +1
+i = i +1
+end while
+end while
+a) 10
+b) 20
+c) 30
+d) 40
+e) 50
+Anexar teste de mesa à resposta.
+
+Teste de mesa
+a=10
+i=0
+enquanto(i<10)
+enquanto(i<10)faça     10x
+a=a+1 =11
+i=i+1 =1
+fim
+
+fim 
+Fim do algoritmo
+
+                                  Saída(A=20)
+explicação:Após o laço se repetir dez vezes o i utilizado chegará no contador de 10 finalizando o laço.
+O A que ja tinha 10 após os contadores de i chegando a 10,foi se adicionando +1,ao final do laço chegando ao resultado final de 20.
+o outro While anterior não contou para a resolução da lógica pois está ali unicamente como um contador,não modificando o While que contem o método para chegarmos ao resultado.
+
+RESPOSTA:B)20
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+4 - Sobre programação, qual o valor de ‘a’? marque a alternativa correta:
+a = 0
+x = 0
+for (i = 0, i < 10, i++)
+while (x < 5)
+x = x + 1
+a = a + 1
+end while
+x= 0
+end for
+a) 10
+b) 20
+c) 30
+d) 40
+e) 50
+
+
+Teste de mesa
+a=0
+x=0
+para(i=0,i<10,i++) <-condições são i=0,enquanto i for menor que dez,recebe                       mais 1(++).
+
+enquanto (x<5)
+x=x+1
+a=a+1
+fim
+x=0
+
+fim                             Saída(a=50)
+Fim do Algoritimo
+
+Explicação 
+Temos um For e um While as condições do for são do i chegar em 10 e a do While ele ir realizando o loop até o x=5,com os métodos de x=x+1 e a=a+1,portando ao final de cada while o a chegando em 5.Só que ao no método do for temos um Reset do X,ou seja a cada vez que o for termina um contador, o a recebe mais cinco,tornando ao final desse ciclo x=0,até que a condição do for ser finalizada resultando ao final do algoritmo a=50.
+
+RESPOSTA:e)50.
+     
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+5 - Sobre programação, marque a alternativa correta:
+x = 5
+function calcula(x)
+           if x > 1     
+       a = x - 1
+retor x * calcula(a) 
+     else
+         retorn 1
+     fim
+fim 
+
+imprimir calcula(x)
+
+Teste de mesa
+
+
+x=5
+
+
+função calcula(x)
+Se x >1 
+   a=x-1(a irá receberá o valor de 4)
+  
+   
+    retorne x*calcula(a)<- quando vemos esse tipo de algoritmo significa que temos um recursiva.(portanto iremos                            fazer o valor inicial vezes seus valores anteriores(4,3,2,1). 
+  
+  fim 
+
+fim do algoritmo
+
+Explicação
+
+
+Temos o valor de x sendo 5 logo no ele irá verificar se o valor de x é 5,como o resultado é positivo temos a função de a=x-1,em que a=4 e x=5(mantém o valor pois não foi modificado).Logo no retorno o valor é x vezes a recursiva de a 
+então realizando a operação temos a=4 vez x=5,resultando em 20,logo apos 20 vezes 3,igual a 60,vezes o 2,com o resultado de 120 e por final vezes o 1.O valor impresso será de 120.
+
+RESPOSTA:c) 120
+
+
+
+
